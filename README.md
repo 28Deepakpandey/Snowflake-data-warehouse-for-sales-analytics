@@ -140,19 +140,41 @@
 * Pre-aggregated metrics for fast BI access.
 * Simplified, business-friendly columns.
 
+
 ---
-##  Reporting Query Screenshots
 
-Below are sample outputs from the reporting layer, generated directly from Snowflake views.
+##  Reporting Queries – Sample Outputs
 
-###  Daily Sales Revenue
-![Daily Sales Revenue](images/daily_sales.png)
+The following screenshots demonstrate how **production fact and dimension tables**
+are used to generate **business-ready reporting views** in Snowflake.
 
-###  Top Selling Products
-![Top Products](images/top_products.png)
+###  Daily Sales Revenue (`vw_daily_sales`)
+<p align="center">
+  <img src="image/daily_sales.png" width="750">
+</p>
 
-###  Customer Segmentation
-![Customer Segments](images/customer_segments.png)
+This view shows daily revenue trends aggregated from the `fact_sales` table,
+supporting time-series analysis and KPI tracking.
+
+---
+
+###  Top Selling Products (`vw_top_products`)
+<p align="center">
+  <img src="image/top_products.png" width="750">
+</p>
+
+Highlights top-performing products based on total sales amount,
+enabling product performance analysis and inventory planning.
+
+---
+
+###  Customer Segmentation (`vw_customer_segments`)
+<p align="center">
+  <img src="image/customer_segments.png" width="750">
+</p>
+
+Segments customers by purchasing behavior and lifetime value,
+supporting targeted marketing and customer analytics.
 
 ---
 
