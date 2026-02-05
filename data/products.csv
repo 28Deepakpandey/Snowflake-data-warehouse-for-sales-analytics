@@ -1,0 +1,51 @@
+product_id,product_name,category,supplier,unit_price,source_file
+1,USB Drive,Peripherals,SupplierA,1732.92,products.csv
+2,Mouse,Office Supplies,SupplierE,816.15,products.csv
+3,Projector,Electronics,SupplierE,941.2,products.csv
+4,Microphone,Gadgets,SupplierE,1679.57,products.csv
+5,Laptop,Office Supplies,SupplierC,15.07,products.csv
+6,Camera,Office Supplies,SupplierA,588.57,products.csv
+7,Webcam,Electronics,SupplierC,134.56,products.csv
+8,Projector,Gadgets,SupplierC,454.14,products.csv
+9,Laptop,Accessories,SupplierD,691.82,products.csv
+10,USB Drive,Gadgets,SupplierD,1244.24,products.csv
+11,Microphone,Accessories,SupplierD,1829.83,products.csv
+12,Router,Accessories,SupplierD,1941.97,products.csv
+13,Graphics Card,Accessories,SupplierD,611.71,products.csv
+14,Graphics Card,Gadgets,SupplierD,190.24,products.csv
+15,Laptop,Office Supplies,SupplierE,1710.62,products.csv
+16,Power Bank,Office Supplies,SupplierA,1231.15,products.csv
+17,Mouse,Accessories,SupplierE,1332.73,products.csv
+18,Headphones,Peripherals,SupplierC,1813.55,products.csv
+19,External HDD,Accessories,SupplierC,1254.63,products.csv
+20,Microphone,Gadgets,SupplierE,84.2,products.csv
+21,Microphone,Gadgets,SupplierE,1367.97,products.csv
+22,Power Bank,Electronics,SupplierB,497.77,products.csv
+23,Speaker,Office Supplies,SupplierC,986.11,products.csv
+24,Power Bank,Peripherals,SupplierB,420.05,products.csv
+25,Laptop,Peripherals,SupplierA,338.19,products.csv
+26,USB Drive,Office Supplies,SupplierA,455.41,products.csv
+27,Router,Peripherals,SupplierC,1977.72,products.csv
+28,Projector,Electronics,SupplierD,1310.83,products.csv
+29,Keyboard,Electronics,SupplierA,1315.59,products.csv
+30,Printer,Office Supplies,SupplierC,1947.01,products.csv
+31,SSD,Electronics,SupplierA,551.45,products.csv
+32,External HDD,Accessories,SupplierE,625.92,products.csv
+33,Graphics Card,Gadgets,SupplierC,110.52,products.csv
+34,Drone,Office Supplies,SupplierA,1221.12,products.csv
+35,Desk Lamp,Electronics,SupplierB,1984.94,products.csv
+36,Speaker,Accessories,SupplierD,1892.83,products.csv
+37,Graphics Card,Accessories,SupplierA,1525.06,products.csv
+38,Smart Home Hub,Electronics,SupplierB,274.2,products.csv
+39,SSD,Office Supplies,SupplierA,1142.97,products.csv
+40,Monitor,Peripherals,SupplierA,1473.74,products.csv
+41,Router,Peripherals,SupplierD,703.05,products.csv
+42,Tablet,Accessories,SupplierB,1655.75,products.csv
+43,Keyboard,Gadgets,SupplierE,1479.75,products.csv
+44,Speaker,Electronics,SupplierA,1675.2,products.csv
+45,Drone,Peripherals,SupplierB,1808.33,products.csv
+46,Webcam,Peripherals,SupplierD,1673.53,products.csv
+47,USB Drive,Office Supplies,SupplierD,1609.02,products.csv
+48,Keyboard,Electronics,SupplierB,1765.87,products.csv
+49,USB Drive,Electronics,SupplierB,1552.83,products.csv
+50,Microphone,Peripherals,SupplierA,569.7,products.csv
