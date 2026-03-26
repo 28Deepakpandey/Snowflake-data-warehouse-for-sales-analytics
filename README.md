@@ -3,13 +3,59 @@
 
 # **Sales Analytics Project**
 
-## **Project Overview**
+Here’s a **cleanly updated Project Overview** that incorporates your **continuous data pipeline using Streams, Tasks, and Stored Procedures** while keeping it professional and resume-ready:
 
-* Goal: Build a **Snowflake data warehouse** for sales analytics.
+---
+
+## **Project Overview **
+
+* Goal: Build a **Snowflake-based sales analytics data warehouse** with both **batch ingestion and continuous data processing**.
 * Data: Customers, Products, Transactions (CSV files).
 * Architecture: **Layered approach** → Raw → Staging → Production → Reporting.
-* Benefits: Clean analytics, reusable datasets, BI-ready, traceable data pipeline.
+* Enhancement: Implemented a **continuous data pipeline** using **Streams, Tasks, and Stored Procedures** for incremental data processing.
+* Benefits:
+
+  * Supports **real-time / near real-time data updates**
+  * Eliminates full reloads with **incremental processing**
+  * Ensures **automated, scalable, and low-latency pipelines**
+  * Maintains **data consistency and auditability**
 * Platform: **Snowflake**
+
+---
+
+### **Continuous Data Pipeline **
+
+* Designed an **event-driven pipeline** to process newly ingested data automatically.
+
+**Components:**
+
+1. **Streams:**
+
+   * Created streams on raw/staging tables to capture **change data (CDC)**.
+   * Tracks inserts/updates without reprocessing entire datasets.
+
+2. **Stored Procedure:**
+
+   * Encapsulates transformation logic from **RAW → STAGING → PRODUCTION**.
+   * Handles:
+
+     * Incremental loads
+     * Data validation
+     * Error handling and logging
+
+3. **Tasks:**
+
+   * Scheduled tasks to **automatically trigger the stored procedure**.
+   * Enables **continuous ingestion and transformation** without manual intervention.
+
+---
+
+### **Key Impact**
+
+* Transitioned pipeline from **batch processing → incremental streaming pipeline**
+* Improved performance by processing **only changed data**
+* Achieved **automation with minimal operational overhead**
+* Built a **production-grade ELT pipeline design** aligned with real-world data engineering practices
 
 ---
 
