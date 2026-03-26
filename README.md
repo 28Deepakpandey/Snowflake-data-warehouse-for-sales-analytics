@@ -1,11 +1,7 @@
 
 ---
 
-# **Sales Analytics Project**
-
-Here’s a **cleanly updated Project Overview** that incorporates your **continuous data pipeline using Streams, Tasks, and Stored Procedures** while keeping it professional and resume-ready:
-
----
+# **Sales Analytics Data Pipeline**
 
 ## **Project Overview **
 
